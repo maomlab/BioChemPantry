@@ -14,7 +14,7 @@ datasets that can be used for an integrated analysis.
 
 ```json
 {
-  "staging_directory" : "/mnt/nfs/work/momeara/pantry_sets",
+  "staging_directory" : "$HOME/pantry_sets",
   "login" : {
     "dbname" : "<database name",
     "host" : "<host>",
@@ -29,7 +29,7 @@ datasets that can be used for an integrated analysis.
 
 ```R
 install.packages("devtools")
-devtools::install_github("momeara/BioChemPantry")
+devtools::install_github("maomlab/BioChemPantry")
 ```
 
 # usage:

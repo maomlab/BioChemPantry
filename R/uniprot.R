@@ -8,7 +8,7 @@ library(magrittr)
 library(httr)
 
 uniprot_host <- "http://www.uniprot.org"
-user_agent_arg <- user_agent("httr http://github.com/momeara/BioChemPantry")
+user_agent_arg <- user_agent("httr http://github.com/maomlab/BioChemPantry")
 
 
 ## helper functions

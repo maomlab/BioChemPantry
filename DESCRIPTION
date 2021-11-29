@@ -1,13 +1,13 @@
 Package: BioChemPantry
 Type: Package
-Version: 0.0.0.9000
+Version: 0.0.1
 Title: Load bioinformatics datasets into a local database
 Description: This R package provides scripts to retrieve and load
-    bioninformatics datasets.
-Authors@R: person("Matthew", "O'Meara", email = "mattjomeara@gmail.com",
+    bioninformatics and chemoinformatic datasets.
+Authors@R: person("Matthew", "O'Meara", email = "maom@umich.edu",
     role = c("aut", "cre"))
-URL: http://github.com/momeara/pantry
-BugReports: https://github.com/momeara/pantry/issues
+URL: http://maomlab.github.io/BioChemPantry
+BugReports: https://github.com/maomlab/pantry/issues
 Depends:
     R (>= 3.1.2)
 Imports:

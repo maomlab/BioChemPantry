@@ -4,7 +4,7 @@ These scripts were used to make chemoinformatic predictions for the set
 of proteomic targets identified to interact with SARS-CoV-2 proteins
 in (Gordon, et al., 2020).
 
-It builds on the BioChemPantry R package (github.com/momeara/BioChempantry)
+It builds on the BioChemPantry R package (github.com/maomlab/BioChemPantry)
 which prepares biology and chemistry datasets into a Postgres database
 to facilitate merging using the R tidyverse framework.
 

@@ -95,7 +95,7 @@ genes <- genes %>%
 
 uniprot_data <- httr::GET(
 	url="http://www.uniprot.org/uniprot/",
-	httr::user_agent("httr http::/github.com/momeara/BioChemPantry"),
+	httr::user_agent("httr http::/github.com/maomlab/BioChemPantry"),
 	query=list(
 		query="database:(type:hgnc)",
 		format='tab',
